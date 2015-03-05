@@ -1,0 +1,25 @@
+{
+    "name": "quantic-telecom/storage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Thibaud Dauce",
+            "email": "thibaud@dauce.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "QuanticTelecom\\Invoices\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
