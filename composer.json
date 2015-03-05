@@ -9,7 +9,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "jenssegers/mongodb": "~2.0"
+        "jenssegers/mongodb": "2.0.*"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "~2.0"
