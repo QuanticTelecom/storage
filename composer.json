@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "QuanticTelecom\\Invoices\\": "src/"
+            "QuanticTelecom\\Storage\\": "src/"
         }
     },
     "minimum-stability": "stable"
