@@ -6,14 +6,6 @@ use QuanticTelecom\Storage\Model;
 class ModelTest extends PHPUnit_Framework_TestCase
 {
     /**
-     * @return Model
-     */
-    public function getNewModel()
-    {
-        return new Model();
-    }
-
-    /**
      * @test
      */
     public function weCanGetTheBusinessLogicClassesAfterSetting()
@@ -23,7 +15,7 @@ class ModelTest extends PHPUnit_Framework_TestCase
             'Foo',
             'Bar'
         ];
-        $model = $this->getNewModel();
+        $model = new Model();
 
         $model->setAllBusinessLogicClasses($businessLogicClasses);
 

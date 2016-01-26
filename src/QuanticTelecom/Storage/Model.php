@@ -1,11 +1,11 @@
 <?php namespace QuanticTelecom\Storage;
 
-use Jenssegers\Mongodb\Eloquent\SoftDeletingTrait;
+use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 use Jenssegers\Mongodb\Model as Moloquent;
 
 class Model extends Moloquent
 {
-    use SoftDeletingTrait;
+    use SoftDeletes;
 
     /**
      * @return string[] All the business logic classes the model come from.
